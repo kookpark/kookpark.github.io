@@ -1,15 +1,15 @@
 .header {
   padding: 40px;
   text-align: center;
-  background: #D3D3D3;
+  background: url("images/homeCover.jpg") no-repeat center;
+  background-color: #D3D3D3;
   color: white;
-  height: 100%;
+  height: 100vh;
 }
 .header h1 {
   font-family: impact;
   font-size: 80px;
 }
-
 .center {
   margin: 0;
   position: absolute;
@@ -17,7 +17,6 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
 }
 .navbar {
   overflow: hidden;
@@ -38,38 +37,16 @@
   background-color: #ddd;
   color: black;
 }
+.footer {
+  text-align: center;
+  background: #D3D3D3;
+  overflow: hidden;
+}
 * {
   box-sizing: border-box;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.side {
-  width: 10%;
-  background-color: #C0C0C0;
-  float: left;
-  display: block;
-}
-.main {
-  background-color: white;
-  padding: 20px;
-}
-.footer {
-  padding: 20px;
+.footerbox {
   text-align: center;
-  background: #ddd;
-  overflow: hidden;
 }
-.footerElements {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-.footerElements i {
-  align-items: center;
-}
-.footerElements a:hover {
-  color: blue;
+.footerBox a:hover {
 }
