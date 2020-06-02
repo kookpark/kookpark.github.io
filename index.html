@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149443653-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-149443653-1');
-</script>
-
-  <script src="https://kit.fontawesome.com/8245dd9d7e.js"></script>
-  <title>
-    Kook's - Home
-  </title>
-  <meta charset="UTF-8">
+  <title>KOOK - TO MAKE THE WORLD BETTER PLACE</title>
+  <!-- HTML5 doctype -->
+  <meta charset="utf-8">
+  <!-- search keywords -->
   <meta name="keywords" content="Minkook Park, Kook, Minkook, Park">
   <meta name="author" content="Minkook Park">
+  <!-- Mobile First -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.css">
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149443653-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149443653-1');
+  </script>
+  <!-- css reference -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<!-- top navigation bar -->
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="aboutMe.html">About</a>
-    <a href="personalThoughts.html">Personal Thoughts</a>
-    <a href="bookReview.html">Book Review</a>
-    <a href="resume.html" class="right">Resume</a>
-  </div>
-<!-- cover page -->
-  <div class="header">
-    <div class="center">
-      <h1>KOOK PARK</h1>
-      <p>Mechanical Engineering Student at University of California, Davis</p>
+<!-- Page Header -->
+  <div class="container-fluid">
+    <div class="row center">
+      <!-- Facebook -->
+      <div class="col-2">
+        <a href="https://www.facebook.com/venuseum">
+          <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
+      </div>
+      <!-- Instagram -->
+      <div class="col-2">
+        <a href="https://www.instagram.com/mkook_park/" class="footerBox">
+          <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
+      </div>
+      <!-- KOOK logo -->
+      <div class="col-4">
+        KOOK
+      </div>
+      <!-- Youtube -->
+      <div class="col-2">
+        <img src="images/youtube.svg" alt="Youtube" height="100px" width="100px">
+      </div>
+      <!-- Resume / E-mail / Google -->
+      <div class="col">
+        <img src="images/google.svg" alt="Google" height="100px" width="100px">
+      </div>
     </div>
   </div>
-<!-- footer icon buttons to my social media -->
-  <div class="footer">
-    <h2>CONNECT WITH ME</h2>
-    <nav class="footerBox">
-      <a href="https://www.facebook.com/venuseum">
-        <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
-      </a>
-      <a href="https://www.instagram.com/mkook_park/" class="footerBox">
-        <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
-      </a>
-      <a href="https://www.linkedin.com/in/minkook-park-7144a3163/" class="footerBox">
-        <img src="images/linkedin.svg" alt="linkedin" height="100px" width="100px">
-      </a>
-    <nav>
+<!-- Video Header -->
+<header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="videos/hummingBird.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Video Header</h1>
+        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+      </div>
+    </div>
   </div>
+</header>
+
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
+        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
+        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
+        <p class="mb-0">
+          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 </body>
 </html>

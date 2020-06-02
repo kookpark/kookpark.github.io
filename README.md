@@ -6,3 +6,6 @@ The purpose of this project is to create a RESUME WEBSITE of my own
   3. share my ideas through personal blog
 
 footer social media icons from: https://www.iconfinder.com/iconsets/social-media-2242
+
+  1. Target audience: peer engineering student & hiring manager
+  
