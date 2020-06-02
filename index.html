@@ -24,66 +24,125 @@
     gtag('config', 'UA-149443653-1');
   </script>
   <!-- css reference -->
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fixed.css">
 </head>
-<body>
-<!-- Page Header -->
-  <div class="container-fluid">
-    <div class="row center">
-      <!-- Facebook -->
-      <div class="col-2">
-        <a href="https://www.facebook.com/venuseum">
-          <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
-      </div>
-      <!-- Instagram -->
-      <div class="col-2">
-        <a href="https://www.instagram.com/mkook_park/" class="footerBox">
-          <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
-      </div>
-      <!-- KOOK logo -->
-      <div class="col-4">
-        KOOK
-      </div>
-      <!-- Youtube -->
-      <div class="col-2">
-        <img src="images/youtube.svg" alt="Youtube" height="100px" width="100px">
-      </div>
-      <!-- Resume / E-mail / Google -->
-      <div class="col">
-        <img src="images/google.svg" alt="Google" height="100px" width="100px">
-      </div>
-    </div>
-  </div>
-<!-- Video Header -->
-<header>
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="videos/hummingBird.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3">Video Header</h1>
-        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
-      </div>
-    </div>
-  </div>
-</header>
 
-<section class="my-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
-        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-        <p class="mb-0">
-          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-        </p>
-      </div>
+<body>
+<!-- Nav -->
+<nav class="navbar navbar-dark fixed-top justify-content-center">
+  <a class="nav-link" href="https://www.facebook.com/venuseum/">
+    <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
+  </a>
+  <a class="nav-link" href="https://www.instagram.com/mkook_park/">
+    <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
+  </a>
+  <a class="nav-link" href="index.html">
+    <img src="images/kook.svg" alt="KOOK" display="block" margin="auto" height="100px" width="100px">
+  </a>
+  <a class="nav-link" href="https://www.youtube.com/user/Rookie379">
+    <img src="images/youtube.svg" alt="Youtube" height="100px" width="100px">
+  </a>
+  <a class="nav-link" href="">
+    <img src="images/google.svg" alt="Google" height="100px" width="100px">
+  </a>
+</nav>
+
+<div class="video-background">
+  <div class="video-wrap">
+    <div id="video">
+      <video id="bgvid" autoplay loop muted playsinline>
+        <source src="videos/hummingBird.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
-</section>
+</div>
+
+<div class="title text-center">
+  <h1>KOOK PARK</h1>
+  <h3>To Make The World Better Place</h3>
+  <a class="btn btn-outline-light btn-lg" href="#aboutMe">About Me</a>
+</div>
+<!-- Page Header
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.facebook.com/venuseum/">
+        <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.instagram.com/mkook_park/">
+        <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">
+        <img src="images/kook.svg" alt="KOOK" display="block" margin="auto" height="100px" width="100px">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.youtube.com/user/Rookie379">
+        <img src="images/youtube.svg" alt="Youtube" height="100px" width="100px">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="">
+        <img src="images/google.svg" alt="Google" height="100px" width="100px">
+      </a>
+    </li>
+  </ul>
+-->
+
+<!-- Page Header 2
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2" id="centered">
+      <a href="https://www.facebook.com/venuseum/">
+        <img src="images/facebook.svg" alt="facebook" height="100px" width="100px">
+      </a>
+    </div>
+    <div class="col-2">
+      <a href="https://www.instagram.com/mkook_park/">
+        <img src="images/instagram.svg" alt="instagram" height="100px" width="100px">
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="">
+        <img src="images/kook.svg" alt="KOOK" display="block" margin="auto" height="100px" width="100px">
+      </a>
+    </div>
+    <div class="https://www.youtube.com/user/Rookie379-2">
+      <a href="">
+        <img src="images/youtube.svg" alt="Youtube" height="100px" width="100px">
+      </a>
+    </div>
+    <div class="col-2">
+      <a href="">
+        <img src="images/google.svg" alt="Google" height="100px" width="100px">
+      </a>
+    </div>
+  </div>
+</div>
+-->
+<!-- Video Header -->
+
+<!-- Video header
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="videos/hummingBird.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">KOOK PARK</h1>
+          <p class="lead mb-0">To Make The World Better Place</p>
+        </div>
+      </div>
+    </div>
+  </header>
+-->
+
 
 </body>
 </html>
